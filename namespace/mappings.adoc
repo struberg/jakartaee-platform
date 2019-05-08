@@ -80,9 +80,9 @@ This content should be considered a stand-in for any actual curated list once pl
 | javax.resource.spi.endpoint | jakarta.resource.spi.endpoint
 | javax.resource.spi.security | jakarta.resource.spi.security
 | javax.resource.spi.work | jakarta.resource.spi.work
-| javax.security | jakarta.security
-| javax.security.auth | jakarta.security.auth
-| javax.security.auth.message | jakarta.security.auth.message
+| javax.security | jakarta.security | also part of JavaSE?
+| javax.security.auth | jakarta.security.auth | also part of JavaSE?
+| javax.security.auth.message | jakarta.security.auth.message | part of the SE and servlet spec :(
 | javax.security.auth.message.callback | jakarta.security.auth.message.callback
 | javax.security.auth.message.config | jakarta.security.auth.message.config
 | javax.security.auth.message.module | jakarta.security.auth.message.module
@@ -96,8 +96,8 @@ This content should be considered a stand-in for any actual curated list once pl
 | javax.servlet.jsp.resources | jakarta.servlet.jsp.resources
 | javax.servlet.jsp.tagext | jakarta.servlet.jsp.tagext
 | javax.servlet.resources | jakarta.servlet.resources
-| javax.transaction | jakarta.transaction
-| javax.transaction.xa | jakarta.transaction.xa
+| javax.transaction | jakarta.transaction | also partly used in JavaSE, used in javax.sql
+| javax.transaction.xa | jakarta.transaction.xa | also partly used JavaSE, used in javax.sql
 | javax.validation | jakarta.validation
 | javax.validation.bootstrap | jakarta.validation.bootstrap
 | javax.validation.constraints | jakarta.validation.constraints
